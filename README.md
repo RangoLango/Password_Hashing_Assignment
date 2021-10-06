@@ -11,33 +11,4 @@ If this was in the pre-prod environment and being regression tested I wouldn’t
 
 Overall this assignment was a good challenge for me and I learned things that I didn’t know before. I appreciate the opportunity and hope to hear your feedback soon.
 
-Bug report #1
-
-Title: User is receiving a Malformed Input error when trying to send a POST call to hash a password.
-
-Prereq: Have Password Hashing App running
-
-Steps: 
-1. Send a POST call, ex. “curl -X POST -H "application/json" -d '{"password":"angrymonkey"}' http://127.0.0.1:8088/hash"
-2. Wait for response
-
-Results - Malformed Input error received
-
-Expected Results - User should receive a job identifier response, 5 seconds after the password should begin to hash.
-
-*This issue is blocking multiple other test cases.*
-
-
-Bug report #2
-
-Title: User is not receiving a 200 response when shutting down the program.
-
-Prereq: Have Password Hashing App running
-
-Steps:
-1. Send a POST call, ex “curl -X POST -d ‘shutdown’ http://127.0.0.1:8088/hash”
-2. Wait for 200 Empty Response
-
-Results - No 200 response received. App does shut down
-
-Expected Results - User should receive a 200 Empty Response before shut down is completed.
+Test cases can be found in Google Sheets - https://docs.google.com/spreadsheets/d/193KUhaQGmJgjl3MrZ4XvJl5dclo-_jeiIKrpNQ8aIpw/edit?usp=sharing
