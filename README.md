@@ -5,7 +5,7 @@ An example would be if I wrote a large case for all requirements in sending a PO
 
 If this was a real world situation, I would also build a Confluence page (or something similar) detailing the installation process and curl commands used. 
 
-I'mn not sure what I am doing that is causing the user error response of Malformed Input. If I were part of the team, I would reach out for help. I have spent a bit of time trying to search and see what I'm doing wrong, but nothing I've found is helping to resolve the issue. I am using the command as given in the instructions and would expect the information provided to work. 
+I'm not sure what I am doing that is causing the user error response of Malformed Input. If I were part of the team, I would reach out for help. I have spent a bit of time trying to search and see what I'm doing wrong, but nothing I've found is helping to resolve the issue. I am using the command as given in the instructions and would expect the information provided to work. 
 
 Hopefully my lack of experience using PowerShell and curl won't detract from my overall QA experience and attention to detail. I would love an opportunity to learn more and be a part of the team.
 
